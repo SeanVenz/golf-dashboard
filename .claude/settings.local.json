@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(uv --version:*)",
+      "Bash(az --version:*)",
+      "Bash(/c/Users/quija/AppData/Local/Programs/Python/Python312/python.exe:*)",
+      "Bash(/c/Python312/python.exe:*)",
+      "Bash(\"/c/Program Files/Microsoft SDKs/Azure/CLI2/wbin/az.cmd\" --version)",
+      "Bash(\"/c/Program Files \\(x86\\)/Microsoft SDKs/Azure/CLI2/wbin/az.cmd\" --version)",
+      "Bash(cmd.exe /c \"where python\")",
+      "Bash(cmd.exe /c \"where uv\")",
+      "Bash(cmd.exe:*)",
+      "Bash(powershell.exe -ExecutionPolicy ByPass -Command \"irm https://astral.sh/uv/install.ps1 | iex\")",
+      "Bash(powershell.exe -Command \"winget search ''ODBC Driver''\")",
+      "Bash(\"/c/Users/quija/.local/bin/uv.exe\" --version)",
+      "Bash(tree:*)",
+      "Bash(ls:*)",
+      "Bash(npm install:*)",
+      "Bash(find:*)",
+      "Bash(dir:*)",
+      "Bash(npm run build:*)"
+    ]
+  }
+}
