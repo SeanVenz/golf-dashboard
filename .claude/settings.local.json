@@ -19,7 +19,12 @@
       "Bash(npm install:*)",
       "Bash(find:*)",
       "Bash(dir:*)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(file:*)",
+      "Bash(node -e:*)",
+      "Bash(npm run process-data:*)",
+      "Bash(node scripts/check-data.js:*)",
+      "Bash(npx vite build)"
     ]
   }
 }
