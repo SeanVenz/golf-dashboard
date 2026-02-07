@@ -58,7 +58,7 @@ export default function Sidebar({ collapsed, onToggle }) {
 
       <div className="px-4 py-3 border-t border-slate-800">
         {!collapsed && (
-          <p className="text-xs text-slate-500">v1.0 &middot; Static Dashboard</p>
+          <p className="text-xs text-slate-500">v1.0</p>
         )}
       </div>
     </aside>
